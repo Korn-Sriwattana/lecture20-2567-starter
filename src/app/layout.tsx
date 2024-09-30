@@ -71,9 +71,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <MantineProvider>
           {/* hide page content with loader */}
-          <Group align="center">
+          {/* <Group align="center">
               <Loader />
-            </Group>
+            </Group> */}
           <Container size="sm">
             <Title fs="italic" ta="center" c="violet" my="xs">
               Course Enrollment
